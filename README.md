@@ -4,6 +4,7 @@ Nissrine Benallal
 
 
 The table of question 2
+
 | Principle | Class | Lines of code | Smell |
     |---|---|---|---|
     | SRP | `ParkingGarage` | The whole class: `fee()`, `checkout()`, `cancel()`, `dailyReport()` | One class serves several actors (Management, Finance, Reporting), so a change for one can break another. |
